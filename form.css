@@ -1,0 +1,31 @@
+.form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form__body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+  
+  .form__selects {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .form__selects {
+      flex-direction: column;
+    }
+  }
+  

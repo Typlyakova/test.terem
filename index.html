@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="description" content="lorem ipsum">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Тест</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="index.db94e79fafd02ab7829b.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body class="root" style="overflow: hidden;">
+
+    <header class="headers"  id="example">
+        <h1 class="headers__title">Франкенштейн</h1>
+    </header>
+
+    <div class="block">
+       
+        <div class="block__list">
+        <div class="card__container"
+        style="background-image: linear-gradient(to right, rgb(92, 54, 0) 0%, rgb(252, 182, 159) 100%); border: 1px solid black;">
+        <h2 class="card__title">01</h2>
+    </div>
+
+      <div class="card__container left"
+      style="background-image: linear-gradient(120deg, rgb(199, 4, 4) 0%, rgb(194, 233, 251) 100%); border: 1px dashed black;">
+      <h2 class="card__title">02</h2>
+  </div>
+
+      <div class="card__container right"
+      style="background-image: linear-gradient(to top, rgb(1, 47, 146) 0%, rgb(69, 58, 148) 100%); border: 1px solid black;">
+      <h2 class="card__title">03</h2>
+  
+    </div>
+</div>
+</div>
+    <footer class="footer">
+        <div class="footer__block">
+            <button class="btn btn-warning" onclick="chpok('example')">Кнопка 1</button>
+        </div>
+        <div class="footer__block">
+            <button type="button" class="btn btn-success" title="меняться местами с левым блоком" id="btn-close">Кнопка 2</button>
+        </div>
+    </footer>
+    <div class="modal _active" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">>
+        <div class="modal__body" >
+            <h2 class="modal__title">Привет, мир!</h2>
+            
+            <div class="modal__buttons" data-bs-dismiss="modal">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" onclick="chpok('exampleModal')">Закрыть</button> 
+            <a href="form.html" type="button" class="btn btn-outline-light">Перейти на форму</a></div>
+        </div>
+    </div>
+
+
+    <template class="card__template">
+        <li class="card__container">
+            <h2 class="card__title"></h2>
+        </li>
+    </template>
+
+ 
+</body>
+
+</html>
